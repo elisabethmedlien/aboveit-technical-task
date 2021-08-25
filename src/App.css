@@ -1,0 +1,82 @@
+body {
+  font-size: 12px;
+  background-color: #aaa8b747;
+}
+
+.App {
+  margin: 45px 25px;
+}
+
+h1 {
+  margin: 10px 0;
+  color: #000000ad;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+
+hgroup {
+  padding: 8px;
+}
+
+th {
+  padding: 8px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 80%;
+}
+
+table tr:nth-child(even) {
+  background-color: #6d475317;
+}
+
+table tr:hover {
+  background-color: #00a52340;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #d27594;
+  color: white;
+}
+
+.pagination {
+  margin-top: 25px;
+  text-align: center;
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: solid rgba(0,0,0,0.5) 0.5px;
+	padding: 3px 12px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+button:not(:first-of-type) {
+  border-left: none;
+}
+
+button:hover {
+  background-color: #00a52340;
+}
+
+button.selected {
+  background-color: pink;
+}
