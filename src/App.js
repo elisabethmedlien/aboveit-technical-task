@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <Header time={time} />
       <Table data={data} indexFirst={indexFirst} indexLast={indexLast} />
-      <Pagination handleChangePage={pageChange} handlNextPage={nextPage} handlePreviousPage={previousPage}  currentPage={currentPage} numberOfPages={numberOfPages} />
+      <Pagination handleChangePage={pageChange} handleNextPage={nextPage} handlePreviousPage={previousPage}  currentPage={currentPage} numberOfPages={numberOfPages} />
     </div>
   );
 }
