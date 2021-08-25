@@ -1,10 +1,8 @@
 import TableData from './TableData.js'
 
-
 const Table = props => {
 
   let { data, indexFirst, indexLast } = props;
-
 
   return (
     <table>
@@ -20,9 +18,14 @@ const Table = props => {
         </tr>
       </thead>
       <tbody>
-        {data.sort((a,b)=> b.time - a.time).slice(indexFirst, indexLast).map(item => {
+
+        {data
+        .sort((a,b)=> b.time - a.time)  // order by newest date first
+        .slice(indexFirst, indexLast)   // selects 20 items per page 
+        .map(item => {
           return <TableData key={item.time} data={item} />
         })}
+        
       </tbody>
     </table>
   )
