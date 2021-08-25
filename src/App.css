@@ -55,8 +55,13 @@ table th {
 }
 
 .pagination {
+  width: 100%;
   margin-top: 25px;
   text-align: center;
+  top: 800px;
+  position: absolute;
+  display: flex; 
+  justify-content: center;
 }
 
 button {
