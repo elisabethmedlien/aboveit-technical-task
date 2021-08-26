@@ -85,3 +85,13 @@ button:hover {
 button.selected {
   background-color: pink;
 }
+
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  border-right-color: rgba(0,0,0, 0.5);
+  background-color: #cccccc;
+  color: #666666;
+  cursor:default;
+}
